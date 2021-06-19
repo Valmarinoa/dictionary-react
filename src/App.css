@@ -4,6 +4,13 @@
 
 .App-logo {
   width: 100px;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
+}
+.container {
+  width: 50%;
+  margin-left: 40px;
+}
+.footerContainer {
+  margin-bottom: 5%;
 }

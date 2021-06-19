@@ -1,0 +1,20 @@
+form {
+  width: 100%;
+}
+input {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90px;
+  position: relative;
+  margin-left: 0px;
+  height: 100px;
+  width: 600px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  outline: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
