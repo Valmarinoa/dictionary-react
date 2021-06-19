@@ -1,4 +1,4 @@
-import logo from "./logo_1.png";
+import logo from "./tempologo.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
