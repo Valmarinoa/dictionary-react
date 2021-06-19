@@ -1,0 +1,9 @@
+.synonyms li {
+  display: inline;
+  padding-right: 20px;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 90;
+  color: rgb(33, 58, 112);
+  width: 50%;
+}
