@@ -28,7 +28,7 @@ export default function Dictionary() {
         <input
           className="buscar"
           type="search"
-          autofocus={true}
+          autoFocus={true}
           onChange={keywordValue}
         />
       </form>
