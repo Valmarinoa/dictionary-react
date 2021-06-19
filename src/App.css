@@ -1,11 +1,13 @@
 .App-header {
   margin: 30px 0;
+  background-color: white;
 }
 
 .App-logo {
-  width: 100px;
+  width: 150px;
   display: inline-block;
-  margin: 0 auto;
+  margin-left: 50px;
+  position: sticky;
 }
 .container {
   width: 50%;
