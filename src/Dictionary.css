@@ -6,7 +6,7 @@ input {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 90px;
   position: relative;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-left: 0px;
   height: 100px;
   width: 600px;
@@ -19,6 +19,9 @@ input {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
+}
+.buscar {
+  margin-top: 20px;
 }
 
 ::-webkit-search-cancel-button {
