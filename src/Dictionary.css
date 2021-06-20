@@ -2,16 +2,16 @@
 .rightside {
   height: 100vh;
   width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 @media screen and (min-width: 768px) {
   .rightside {
     height: 100vh;
   }
 }
-.rightside,
 .leftside {
-  overflow-x: hidden;
-  overflow-y: auto;
+  height: 100%;
 }
 
 form {
@@ -22,7 +22,7 @@ input {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 90px;
   position: relative;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-left: 0px;
   height: 100px;
   width: 600px;
