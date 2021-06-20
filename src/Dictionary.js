@@ -26,27 +26,39 @@ export default function Dictionary(props) {
 
     let pexelsApiKey =
       "563492ad6f91700001000001500c8c5a052a451d80156004a8e1c2be";
-    let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
-    let headers = { Authorization: `Bearer${pexelsApiKey}` };
+    let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=80`;
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsUrl, { headers: headers }).then(handlePexelsResponse);
   }
+
   function keywordValue(event) {
     setKeyword(event.target.value);
   }
 
   return (
-    <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          className="buscar"
-          type="search"
-          autoFocus={true}
-          placeholder="type any word"
-          onChange={keywordValue}
-        />
-      </form>
-      <Results results={results} />
-      <Photos photos={photos} />
+    <div>
+      <div className="row">
+        <div className="col d-flex justify-content-center align-items-center">
+          <div className="leftside">
+            <form onSubmit={search}>
+              <input
+                className="buscar"
+                type="search"
+                autoFocus={true}
+                placeholder="type any word"
+                onChange={keywordValue}
+              />
+            </form>
+            <Results results={results} />
+          </div>
+        </div>
+
+        <div className="col d-flex justify-content-center align-items-center">
+          <div className="rightside">
+            <Photos photos={photos} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

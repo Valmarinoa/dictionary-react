@@ -1,3 +1,19 @@
+.leftside,
+.rightside {
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .rightside {
+    height: 100vh;
+  }
+}
+.rightside,
+.leftside {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 form {
   width: 100%;
   position: relative;
